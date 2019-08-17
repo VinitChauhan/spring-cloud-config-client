@@ -17,7 +17,7 @@ public class MessageRecever {
     private String message;
 
     @GetMapping("/message")
-    public String getMessage(){
+    public String message(){
         return message;
     }
 }
